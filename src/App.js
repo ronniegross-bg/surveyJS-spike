@@ -57,52 +57,52 @@ function App() {
     <AppContainer className="App">
       <FormControl>
         <QuestionContainer>
-          <h2>Please select option 1</h2>
+          <h2>Please select answer 1</h2>
           <RadioGroup>
             <FormControlLabel
-              value="Option 1"
+              value="answer 1"
               control={<Radio />}
-              label="Option 1"
+              label="answer 1"
             />
             <FormControlLabel
-              value="Option 2"
+              value="answer 2"
               control={<Radio />}
-              label="Option 2"
+              label="answer 2"
             />
             <FormControlLabel
-              value="Option 3"
+              value="answer 3"
               control={<Radio />}
-              label="Option 3"
+              label="answer 3"
             />
             <FormControlLabel
-              value="Option 4"
+              value="answer 4"
               control={<Radio />}
-              label="Option 4"
+              label="answer 4"
             />
           </RadioGroup>
         </QuestionContainer>
         <QuestionContainer>
           <FormGroup>
-            <h2>Please select option 1 and option 2</h2>
+            <h2>Please select answer 1 and answer 2</h2>
             <FormControlLabel
-              value="Option 1"
+              value="answer 1"
               control={<Checkbox />}
-              label="Option 1"
+              label="answer 1"
             />
             <FormControlLabel
-              value="Option 2"
+              value="answer 2"
               control={<Checkbox />}
-              label="Option 2"
+              label="answer 2"
             />
             <FormControlLabel
-              value="Option 3"
+              value="answer 3"
               control={<Checkbox />}
-              label="Option 3"
+              label="answer 3"
             />
             <FormControlLabel
-              value="Option 4"
+              value="answer 4"
               control={<Checkbox />}
-              label="Option 4"
+              label="answer 4"
             />
           </FormGroup>
         </QuestionContainer>
@@ -119,16 +119,16 @@ function App() {
           />
         </QuestionContainer>
         <QuestionContainer>
-          <h2>Please write one word</h2>
+          <h2>Please write "cat"</h2>
           <TextField></TextField>
         </QuestionContainer>
         <QuestionContainer>
-          <h2>Please select #4</h2>
-          <Select labelId="label" id="select" value="10">
-            <MenuItem value="10">#1</MenuItem>
-            <MenuItem value="20">#2</MenuItem>
-            <MenuItem value="30">#3</MenuItem>
-            <MenuItem value="40">#4</MenuItem>
+          <h2>Please select answer 4</h2>
+          <Select labelId="label" id="select" value="answer 1">
+            <MenuItem value="answer 1">answer 1</MenuItem>
+            <MenuItem value="answer 2">answer 2</MenuItem>
+            <MenuItem value="answer 3">answer 3</MenuItem>
+            <MenuItem value="answer 4">answer 4</MenuItem>
           </Select>
         </QuestionContainer>
         <Button variant="contained" color="primary">
