@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/surveyJS-spike/static/css/main.33f34e68.chunk.css",
-    "main.js": "/surveyJS-spike/static/js/main.456c17ad.chunk.js",
-    "main.js.map": "/surveyJS-spike/static/js/main.456c17ad.chunk.js.map",
+    "main.js": "/surveyJS-spike/static/js/main.2a8ae795.chunk.js",
+    "main.js.map": "/surveyJS-spike/static/js/main.2a8ae795.chunk.js.map",
     "runtime-main.js": "/surveyJS-spike/static/js/runtime-main.d05e1b72.js",
     "runtime-main.js.map": "/surveyJS-spike/static/js/runtime-main.d05e1b72.js.map",
     "static/js/2.403d1a24.chunk.js": "/surveyJS-spike/static/js/2.403d1a24.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d05e1b72.js",
     "static/js/2.403d1a24.chunk.js",
     "static/css/main.33f34e68.chunk.css",
-    "static/js/main.456c17ad.chunk.js"
+    "static/js/main.2a8ae795.chunk.js"
   ]
 }
